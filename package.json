@@ -1,0 +1,25 @@
+{
+  "name": "ipl-fantasy-tracker",
+  "version": "1.0.0",
+  "description": "Custom IPL Fantasy League Tracker",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev:backend": "nodemon backend/server.js",
+    "dev:frontend": "cd frontend && npm start",
+    "build": "cd frontend && npm run build",
+    "install:all": "npm install && cd frontend && npm install",
+    "deploy:render": "echo 'Deploying to Render via Git integration'",
+    "deploy:vercel": "cd frontend && vercel"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "keywords": [
+    "ipl",
+    "fantasy",
+    "cricket",
+    "tournament"
+  ],
+  "author": "",
+  "license": "ISC"
+}
